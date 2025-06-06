@@ -1,0 +1,95 @@
+/* login.css */
+
+.auth-container {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #009999; 
+  overflow: hidden;
+  }
+  
+.auth-left {
+  background-color: #009999;
+  color: white;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login {
+  gap: 3px;
+}
+  
+.auth-right {
+  flex: 1;
+  padding: 10px 10px;
+  background-color: #fff;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+  
+.logo {
+  width: 400px !important;
+  height: auto;
+  object-fit: contain !important;
+}
+  
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+  
+input[type="email"],
+input[type="password"] {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+ .btn-link {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #009999;
+  color: white;
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-link:hover {
+  background-color: #007777;
+}
+
+  
+.btn:hover {
+  background-color: #2db1ac;
+}
+  
+.auth-switch {
+  font-size: 14px;
+  margin-top: 10px;
+}
+  
+.auth-switch a {
+  color: #3cc5c0;
+  font-weight: bold;
+  text-decoration: none;
+}
+.section-divider {
+  border-bottom: 2px solid #000; /* linha preta */
+  width: 100%;
+  margin: 30px 0; /* espaçamento acima e abaixo */
+}
+  
